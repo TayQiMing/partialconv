@@ -80,6 +80,8 @@ parser.add_argument('--pretrained', dest='pretrained', action='store_true',
 parser.add_argument('--world-size', default=1, type=int,
                     help='number of distributed processes')
 
+parser.add_argument('--seed', default=None, type=int,
+                    help='seed for initializing training. ')
 parser.add_argument('--gpu', default=None, type=int,
                     help='GPU id to use.')
 
